@@ -1,0 +1,21 @@
+This is a sort of sub branch [SortArray Branch] from the master branch for testing
+
+- Merge branch - This creates a new “merge commit” in the sub [SortArrays] branch that ties together the histories of
+both branches
+
+- What happened here is the "merge" took the changes from master and put them in SortArrays branch this was
+ the "Readme.md" which is the "Removed IntelliJ Specification"
+
+ Observation: The "Merging" is a commit itself, Does NOT affect Master branch which was intended
+
+- Rebase branch - This moves the entire sub [SortArrays] branch to begin on the tip of the master branch, effectively
+incorporating all of the new commits in master. But, instead of using a merge commit, rebasing re-writes the project
+history by creating brand new commits for each commit in the original branch
+
+Research: Both are similar but Git History looks cleaner in rebase
+
+As of this moment self-taught how to:
+Created a new branch
+Merge or rebase - difference, how it works and tested [Merge Only]
+Figured out Local vs. Remote Branch
+Practiced to branched out instead of always using master branch
