@@ -3,9 +3,12 @@ public class ArraySort
 {
 	public static void main(String[] args)
 	{
+
 	 try (Scanner scan = new Scanner(System.in)) {
-		int[] array = new int[5];
-		
+
+		 int[] array = new int[5];
+
+		 System.out.println("Please enter 5 integers: ");
 		 for (int i=0; i<array.length; i++){
 			 array[i] = scan.nextInt();
 		 }
