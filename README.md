@@ -2,4 +2,4 @@
 
 Repository for testing algorithms like "Bubble Sort"
 
-***Note:*** I will also be self-teaching myself how to ***branch out*** in Git
+***Note:*** I will also be self-teaching myself how to ***branch out*** and make a ***pull request*** in Git
